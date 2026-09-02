@@ -187,7 +187,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
               <a class="nav-link" href="cart.php"><i class="fa-solid fa-cart-shopping"></i><sup></sup></a>
             </li>
             <li class="nav-item d-flex align-items-center">
-              <img src="../ecommerce/image/ echo $_SESSION['image']; ?>" alt="Profile Image" style="width: 30px; height: 30px; border-radius: 50%; margin-right: 10px;">
+              <img src="../ecommerce/image/<?php echo $_SESSION['image']; ?>" alt="Profile Image" style="width: 30px; height: 30px; border-radius: 50%; margin-right: 10px;">
               <span class="navbar-text text-white"><?php echo $_SESSION['username']; ?></span>
             </li>
             <li class="nav-item">
